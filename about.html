@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us - Buzzfeed</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="image/logo.png" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html" class="active">About Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="events.html">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<img src="image/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			ISLAMIA COLLEGE OF COMMERCE
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- About section starts from here -->
+	<section id="about-container">
+		<div class="about-img">
+			<img src="image/a.png" alt="">
+		</div>
+		<div class="about-text">
+			<h2>
+				Welcome to ICC, Enhance your college experience with our BuzzFeed social networking website.
+			</h2>
+			<p>
+				Check out the website...
+			</p>
+
+			<div class="about-fe">
+				<img src="image/fe1.png" alt="">
+				<div class="fe-text">
+					<h5>Connect with your collegemates.</h5>
+					<p>
+						You can make friends and join communities.
+					</p>
+				</div>
+			</div>
+			<div class="about-fe">
+				<img src="image/fe2.png" alt="">
+				<div class="fe-text">
+					<h5>Explore your curiosity.</h5>
+					<p>
+						You can explore your interest and make a career out of them.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Awesome Facilities</h1>
+		<p>Our institute offers amazing facilities like .....</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Scholorship Facility</h3>
+				<p>
+					Don't worry about the finances. We'll help you manage your expenses.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Up to Date Syllabus</h3>
+				<p>
+					Get industry up to date knowledge.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Global Certification</h3>
+				<p>
+					Get renowned certification from the university.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+
+	<!-- Trust section starts from here -->
+	<section id="trust">
+		<h1>AFFILIATED BY DDU</h1>
+		<p>Companies trust our reputation in the market .</p>
+		<div class="trust-img">
+			<img src="image/ddu1.jpeg" alt="">
+			<img src="image/ddu3.jpg" alt="">
+			<img src="image/ddu2.png" alt="">
+		</div>
+	</section>
+	<!-- Trust section ends from here -->
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Departments</h3>
+			<li>Bachelors in Commerce</li>
+			<li>Bachelors in Science</li>
+			<li>Bachelors in Computer Application</li>
+			<li>Bachelors in Business Administration</li>
+			<li>Masters in Commerce</li>
+			<li>Masters in Science</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Courses</h3>
+			<li>Tally ERP9</li>
+			<li>CCC</li>
+			<li>O - Level</li>
+			<li>A - Level</li>
+			<li>B - Level</li>
+			<li>DCA</li>
+			<li>ADCA</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Important Links</h3>
+			<li>Photo Gallery</li>
+			<li>Results</li>
+			<li>Contact Us</li>
+			<li>Feedback</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<p>You can trust us. Your information is safe with us as our privacy policy is very strict.</p>
+
+			<div class="subscribe">
+				<input type="email" placeholder="Your email Address">
+				<a href="#" class="yellow">SUBSCRIBE</a>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2024 All rights are reserved .
+			</p>
+			<div class="pro-links">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
